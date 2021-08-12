@@ -1,0 +1,167 @@
+body {
+    font-family: Metropolis, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif,
+        Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-size: 1rem;
+}
+.bg-primary {
+    background-color: #1abc9c !important;
+}
+.bg-secondary {
+    background-color: #2c3e50 !important;
+}
+.bg-copyright {
+    background-color: #1a252f;
+}
+.heading-line {
+    width: 100px;
+    height: 3px;
+    background-color: white;
+}
+.headerIcon {
+    margin: 0 12px;
+    font-size: xx-large;
+}
+.color-primary {
+    color: #1abc9c !important;
+}
+.color-secondary {
+    color: #2c3e50 !important;
+}
+.section-heading {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.fa {
+    font-family: "FontAwesome" !important;
+}
+.modal-header {
+    border: none;
+}
+.modal-footer {
+    border: none;
+    justify-content: center;
+}
+#nav {
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial,
+        "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 700;
+    font-size: 80% !important;
+    background-color: #2c3e50 !important;
+    .nav-link {
+        &:hover {
+            color: #1abc9c !important;
+        }
+    }
+    .navbar-toggler {
+        padding: 12px 10px;
+        font-size: 1rem;
+    }
+    .navbar-brand {
+        font-size: 23px !important;
+    }
+    .nav-item {
+        list-style: none;
+    }
+}
+
+header {
+    padding: 170px 0 80px 0;
+    .headerIcon {
+        margin: 0 12px;
+        font-size: xx-large;
+    }
+}
+.page-section {
+    padding: 100px 0;
+    .section-image {
+        position: relative;
+        overflow: hidden;
+        .icon {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100px;
+            height: 100px;
+            background-color: #1abc9c;
+            width: 336px;
+            height: 243px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        img {
+            position: relative;
+        }
+    }
+    .portfolioImage {
+        width: 336px;
+        height: 243px;
+        margin: 10px;
+        border-radius: 10px;
+        cursor: pointer;
+        &:hover {
+            opacity: 0.5;
+        }
+    }
+}
+
+.section-about {
+    padding: 100px 0;
+    .btn-download {
+        &:hover {
+            background-color: white !important;
+        }
+    }
+}
+
+.form-control {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0 !important;
+    margin-top: 20px;
+    margin-left: 13px;
+}
+.form-floating input.form-control:focus,
+.form-floating textarea.form-control:focus,
+.form-control.is-invalid:focus,
+.was-validated .form-control:invalid:focus,
+.form-control.is-valid:focus,
+.was-validated .form-control:valid:focus {
+    box-shadow: none;
+}
+
+footer {
+    padding: 100px 0;
+    .fa-facebook,
+    .fa-twitter,
+    .fa-linkedin,
+    .fa-dribbble {
+        width: 56px;
+        height: 56px;
+        border-radius: 50%;
+        padding-top: 15px;
+        border: 2px solid white;
+        font-size: x-large;
+        color: white;
+        cursor: pointer;
+        &:hover {
+            background-color: white;
+            color: #2c3e50;
+        }
+    }
+}
+.section-copyright {
+    padding: 30px 0;
+    #myBtn {
+        display: none;
+        position: fixed;
+        bottom: 20px;
+        right: 30px;
+        z-index: 99;
+        width: 67px;
+        color: white;
+        cursor: pointer;
+        padding: 15px;
+        border-radius: 100%;
+    }
+}
