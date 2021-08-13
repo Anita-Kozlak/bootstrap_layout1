@@ -27,6 +27,9 @@ body {
 .color-secondary {
     color: #2c3e50 !important;
 }
+.color-white {
+    color: white;
+}
 .section-heading {
     font-size: 2.5rem;
     font-weight: 700;
@@ -34,8 +37,14 @@ body {
 .fa {
     font-family: "FontAwesome" !important;
 }
+.iconPlus-size {
+    font-size: 80px;
+}
 .modal-header {
     border: none;
+    .btn-close {
+        font-size: xx-large;
+    }
 }
 .modal-footer {
     border: none;
@@ -55,12 +64,12 @@ body {
     .navbar-toggler {
         padding: 12px 10px;
         font-size: 1rem;
+        .fa-bars {
+            font-size: initial;
+        }
     }
     .navbar-brand {
         font-size: 23px !important;
-    }
-    .nav-item {
-        list-style: none;
     }
 }
 
@@ -80,8 +89,6 @@ header {
             position: absolute;
             top: 0;
             left: 0;
-            width: 100px;
-            height: 100px;
             background-color: #1abc9c;
             width: 336px;
             height: 243px;
@@ -91,15 +98,15 @@ header {
         img {
             position: relative;
         }
-    }
-    .portfolioImage {
-        width: 336px;
-        height: 243px;
-        margin: 10px;
-        border-radius: 10px;
-        cursor: pointer;
-        &:hover {
-            opacity: 0.5;
+        .portfolioImage {
+            width: 336px;
+            height: 243px;
+            margin: 10px;
+            border-radius: 10px;
+            cursor: pointer;
+            &:hover {
+                opacity: 0.5;
+            }
         }
     }
 }
@@ -119,7 +126,7 @@ header {
     border-right: none;
     border-radius: 0 !important;
     margin-top: 20px;
-    margin-left: 13px;
+    height: 100px;
 }
 .form-floating input.form-control:focus,
 .form-floating textarea.form-control:focus,
@@ -163,5 +170,8 @@ footer {
         cursor: pointer;
         padding: 15px;
         border-radius: 100%;
+    }
+    .fa-long-arrow-up {
+        font-size: xx-large;
     }
 }
